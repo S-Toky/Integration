@@ -14,21 +14,27 @@ nav{
 }
 
 .container{
-  height: 70px;
+  height: 100%;
 }
 
 .position {
   list-style-type: none;
   margin: 0;
   padding: 10px;
-  padding-right: 200px;
 }
 
 .link {
-  float: right;
+  float: left;
   padding: 0px 20px 0px 20px;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navlinklist{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
 }
 
 .textlink{
@@ -48,8 +54,8 @@ a:hover:not(.active) {
 }
 
 .image1{
-  width: 291px;
-  height: 70px;
+  width: 333px;
+  height: 58px;
 }
 
 /* *******************
@@ -85,7 +91,8 @@ a:hover:not(.active) {
 .texthead1{
   font-size: 40px;
   color: aliceblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .btn{
@@ -97,15 +104,16 @@ a:hover:not(.active) {
 
 .btnbtn{
   background-color: rgb(1, 128, 144);
-  font-size: 20px;
+  font-size: 25px;
   color: aliceblue;
   text-decoration: none;
   font-weight: bold;
   width: 200px;
   margin: 0 auto;
   border: none;
-  border-radius: 10px;
-  padding: 10px; 
+  border-radius: 5px;
+  padding: 17px 10px 17px 10px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn .btnbtn:hover{
@@ -120,21 +128,34 @@ a:hover:not(.active) {
 }
 
 .title{
-  font-size: 45px;
+  font-size: 35px;
   color: rgb(0, 170, 153);
+  margin-bottom: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .para{
-  font-size: 35px;
+  font-size: 30px;
   color: rgb(4, 102, 141);
+  margin-top: 0px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .imageproduct{
-  width: 450px;
-  padding-bottom: 60px;
-  padding-left: 140px;
+  width: 375px;
+  height: 140px;
+  margin-right: 250px;
+}
+
+.imageproduct2{
+  width: 375px;
+  height: 140px;
+  margin-left: 250px;
+}
+
+.imagprod{
+  display: flex;
+  justify-content: space-around;
 }
 
 .paraproduct{
@@ -151,6 +172,7 @@ a:hover:not(.active) {
   display: flex;
   justify-content: center;
   font-size: 25px;
+  margin-bottom: 50px;
 }
 
 .listproduct{
@@ -170,18 +192,20 @@ a:hover:not(.active) {
   background-color: white;
   text-align: center;
   margin-top: 25PX;
+  margin-bottom: 100px;
 }
 
 .btnbtnn{
   background-color:rgb(1, 128,144);
-  font-size: 20px;
+  font-size: 25px;
   color: aliceblue;
   text-decoration: none;
   font-weight: bold;
   width: 200px;
   border: none;
-  border-radius: 10px;
-  padding: 10px; 
+  border-radius: 5px;
+  padding: 17px 10px 17px 10px; 
+  margin: 20px;
 }
 
 .btnn .btnbtnn:hover{
@@ -201,33 +225,35 @@ a:hover:not(.active) {
 .textheadline{
   text-align: center;
   font-size: 40px;
-  padding-top: 40px;
+  padding-top: 50px;
   color: aliceblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 .textheadline1{
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: aliceblue;
-  margin-top: 0px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
 }
 
 .tablesection{
   width: 100%;
-  padding: 0px 30px 0px 80px;
+  padding: 0px 30px 66px 80px;
 }
 
 .tablcol1{
   padding: 0px 20px 0px 20px;
   text-align: left;
-  font-size: 30px;
+  font-size: 35px;
   color: rgb(4, 102, 141);
   width: 500px;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;  
 }
 
 .paratable{
@@ -235,10 +261,13 @@ a:hover:not(.active) {
   text-align: justify;
   color: aliceblue;
   width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .tablecol2{
   padding: 2Opx;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .elemnt{
@@ -262,7 +291,7 @@ a:hover:not(.active) {
 }
 
 .textdown{
-  color: rgb(4, 102, 141);
+  color: rgb(97, 156, 156);
   font-weight: normal;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -298,11 +327,18 @@ a:hover:not(.active) {
   text-align: center;
   font-size: 30px;
   color: aliceblue;
-  font-weight: normal;
+  font-weight: lighter;
+  margin-top: 0px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .contactadress{
   display: flex;
+}
+
+.testb{
+  display: flex;
+  flex-direction: column;
 }
 
 .contactlist{
@@ -310,19 +346,29 @@ a:hover:not(.active) {
   justify-content: space-around;
 }
 
-.iconcontact{
-  width: 50px;
+.iconadress{
+  width: 51px;
   height: 60px;
+}
+
+.iconcontact{
+  width: 51px;
+  height: 50px;
 }
 
 .paracontact{
   color: aliceblue;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .apellcontact{
   color: aliceblue;
-  font-size: 30px;
+  font-size: 22px;
+  margin-bottom: 0px;
+  margin-top: 22px;
+  margin-left: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .contactcoordappel{
@@ -332,11 +378,10 @@ a:hover:not(.active) {
 .contactcoord{
   display: flex;
   position: relative;
-  left: 96px;
 }
 
 .iconcontactmail{
-  width: 40px;
+  width: 56px;
   height: 40px;
 }
 
@@ -344,7 +389,9 @@ a:hover:not(.active) {
   margin: 0px;
   color: aliceblue;
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* *********************
